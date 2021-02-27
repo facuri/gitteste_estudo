@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class Teste {
    
 	
-	
+	//Variáveis
 	String nome;
 	int idade;
 	
+	//Método para mostar dados
 	public void mostrar(){
 		System.out.println("Nome: " + nome + 
 				           "\nIdade: " + idade);
