@@ -4,25 +4,24 @@ import java.util.Scanner;
 
 public class Teste {
    
+//Novos códigos	
+public static void main(String[] args) {
 	
 	//Variáveis
-	String nome;
-	int idade;
+	Scanner ent = new Scanner(System.in);
+	int i;
+	String nome, mostrar;
+	i = 1;
+	mostrar = "";
 	
-	//Método para mostar dados
-	public void mostrar(){
-		System.out.println("Nome: " + nome + 
-				           "\nIdade: " + idade);
-		
-	}
-
-	public static void main(String[] args) {
-		  
-		 Teste t = new Teste();
-		 
-		 t.nome = "Marcos";
-		 t.idade = 12;
-		 t.mostrar();
+	
+		 while(i <= 2){
+			System.out.print("Digite o " + i + " nome: ");
+			nome = ent.next();
+			mostrar += nome + ", ";
+			i++;
+		 }
+		 System.out.println("Nomes: " + mostrar);
 		   
 			
 		}
