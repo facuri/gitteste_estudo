@@ -14,7 +14,7 @@ public static void main(String[] args) {
 	i = 1;
 	mostrar = "";
 	
-	
+	      //Exemplo com While
 		 while(i <= 2){
 			System.out.print("Digite o " + i + " nome: ");
 			nome = ent.next();
