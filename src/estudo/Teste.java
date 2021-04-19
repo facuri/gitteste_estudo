@@ -11,15 +11,15 @@ public static void main(String[] args) {
 	Scanner ent = new Scanner(System.in);
 	int i;
 	String nome, mostrar;
-	i = 1;
+	//i = 1;
 	mostrar = "";
 	
-	      //Exemplo com While
-		 while(i <= 2){
+	      //Exemplo com for
+		for(i = 1; i<= 2; i++){
 			System.out.print("Digite o " + i + " nome: ");
 			nome = ent.next();
 			mostrar += nome + ", ";
-			i++;
+			//i++;
 		 }
 		 System.out.println("Nomes: " + mostrar);
 		   
